@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Calorieda</string>
+    <string name="title_meal">Meal</string>
+    <string name="title_drink">Drink</string>
+    <string name="title_calories">Calories</string>
+    <string name="title_report">Report</string>
+    <string name="title_setting">Setting</string>
+    <string name="title_meal_schedule">Meal Schedule</string>
+    <string name="title_drink_schedule">Drink Schedule</string>
+    <string name="title_activity_settings">Setting Activity</string>
+    <string name="title_calculate_calories">Calculate Calories</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Drink Fragment -->
+    <string name="_0">0</string>
+    <string name="_0_completed">0%% Completed</string>
+    <string name="goal_1000ml">Goal 1000ml</string>
+    <string name="ml">ml</string>
+    <string name="_0ml">0ml</string>
+    <string name="_50ml">50ml</string>
+    <string name="drink">Drink</string>
+    <string name="slider_label">%1$s ml</string>
+    <string name="new_goal">Goal %1$s ml</string>
+    <string name="new_progress">%1$s%% Completed</string>
+
+    <!-- Meal Fragment -->
+    <string name="breakfast">Breakfast</string>
+    <string name="_08_00">08:00</string>
+
+    <!-- Report Fragment -->
+    <string name="report_empty">No report on this day</string>
+    <string name="progress">%1$s%%</string>
+    <string name="eaten">Eaten</string>
+    <string name="skipped">Skipped</string>
+    <string name="title_activity_meal_schedule">MealSchedule</string>
+
+    <!-- Meal Schedule Activity -->
+    <string name="add_button">Add Button</string>
+    <string name="close_button">Close Button</string>
+    <string name="name">Name</string>
+    <string name="enter_schedule_name">Enter Schedule Name</string>
+    <string name="time">Time</string>
+    <string name="delete">Delete</string>
+    <string name="update">Update</string>
+
+    <!-- Calories Fragment -->
+    <string name="calories">Calories</string>
+    <string name="adapter_kcal">%1$s Kcal</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="Calorie">%.1f kcal</string>
+    <string name="unit">%d %s</string>
+    <string name="weight">%.1f g</string>
+    <string name="total_calories">Total calories: %.1f KCAL</string>
+    <string name="header_home_1">Discover the</string>
+    <string name="header_home_2">nutrition information.</string>
+    <string name="help_search">You can search by entering \"1 cup of milk and 2 eggs\" to find out the nutritional value of some foods.</string>
+    <string name="autofill_query">1 cup of milk and 2 eggs</string>
+    <string name="hint_search">What did you eat today?</string>
+    <string name="calculate_foods">Calculate Foods</string>
+    <string name="calculate">Search</string>
+    <string name="nutritional_information">Nutritional Information</string>
+    <string name="detail_food">Detail %s</string>
+    <string name="loading">Loading..</string>
+    <string name="empty_result">No Result</string>
+    <string name="empty_search_result_title">No result</string>
+    <string name="empty_search_result_desc">Sorry, we couldn\'t find what\nyou were looking for</string>
+    <string name="kcal">Kcal</string>
+    <string name="date">Date</string>
+    <string name="calculate1">Calculate</string>
+
+</resources>

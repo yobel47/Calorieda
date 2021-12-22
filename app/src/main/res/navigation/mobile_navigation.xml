@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@+id/navigation_meal">
+
+    <fragment
+        android:id="@+id/navigation_meal"
+        android:name="com.bell.calorieda.ui.main.meal.MealFragment"
+        android:label="@string/title_meal"
+        tools:layout="@layout/fragment_meal" />
+
+    <fragment
+        android:id="@+id/navigation_drink"
+        android:name="com.bell.calorieda.ui.main.drink.DrinkFragment"
+        android:label="@string/title_drink"
+        tools:layout="@layout/fragment_drink" />
+
+    <fragment
+        android:id="@+id/navigation_calories"
+        android:name="com.bell.calorieda.ui.main.calories.CaloriesFragment"
+        android:label="@string/title_calories"
+        tools:layout="@layout/fragment_calories" />
+
+    <fragment
+        android:id="@+id/navigation_report"
+        android:name="com.bell.calorieda.ui.main.report.ReportFragment"
+        android:label="@string/title_report"
+        tools:layout="@layout/fragment_report" />
+</navigation>

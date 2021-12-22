@@ -1,0 +1,44 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="Meal">
+
+        <SwitchPreference
+            app:key="meal_reminder"
+            app:title="Meal Reminder"
+            app:summary="Turn on reminder for meal"/>
+        <Preference
+            app:key="mealActivity"
+            app:title="Meal Schedule"
+            app:summary="Set up your meal schedule">
+        </Preference>
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Drink">
+        <SwitchPreference
+            app:key="drink_reminder"
+            app:title="Drink Reminder"
+            app:summary="Turn on reminder for meal"/>
+        <EditTextPreference
+            app:key="drink_target"
+            app:title="Drink Target"
+            app:summary="1000ml" />
+        <Preference
+            app:key="drinkActivity"
+            app:title="Drink Schedule"
+            app:summary="Set up your drink schedule">
+        </Preference>
+        <Preference
+            app:key="resetDrink"
+            app:title="Reset Drink Progress"
+            app:summary="Reset drink progress for today">
+        </Preference>
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Calories">
+        <Preference
+            app:key="resetCalories"
+            app:title="Reset Calories Data"
+            app:summary="Reset calories data for today">
+        </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>
