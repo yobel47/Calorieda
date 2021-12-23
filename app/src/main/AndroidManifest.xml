@@ -19,36 +19,43 @@
         <activity
             android:name=".ui.mealCheck.MealCheckActivity"
             android:exported="false"
-            android:screenOrientation="fullSensor"/>
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".ui.detailNutrient.NutrientDetailActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".ui.nutrient.NutrientActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".ui.calculate.CalculateActivity"
             android:exported="false"
-            android:label="@string/title_calculate_calories" />
+            android:label="@string/title_calculate_calories"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".ui.drinkSchedule.DrinkScheduleActivity"
             android:exported="false"
             android:label="@string/title_drink_schedule"
-            android:parentActivityName=".ui.setting.SettingsActivity" />
+            android:parentActivityName=".ui.setting.SettingsActivity"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".ui.mealSchedule.MealScheduleActivity"
             android:exported="false"
             android:label="@string/title_meal_schedule"
-            android:parentActivityName=".ui.setting.SettingsActivity" />
+            android:parentActivityName=".ui.setting.SettingsActivity"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".ui.setting.SettingsActivity"
             android:exported="false"
-            android:label="@string/title_activity_settings" />
+            android:label="@string/title_activity_settings"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".ui.main.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
-            android:windowSoftInputMode="adjustPan">
+            android:windowSoftInputMode="adjustPan"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
