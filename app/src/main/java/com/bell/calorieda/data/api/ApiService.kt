@@ -1,5 +1,6 @@
 package com.bell.calorieda.data.api
 
+import com.bell.calorieda.BuildConfig.*
 import com.bell.calorieda.data.response.Response
 import retrofit2.Call
 import retrofit2.http.Field
@@ -10,9 +11,9 @@ import retrofit2.http.POST
 interface ApiService {
     @FormUrlEncoded
     @Headers(
-        "x-app-id:761545d2",
-        "x-app-key:9c446a74a908b605a2767a15e244cca3",
-        "x-remote-user-id:0"
+        "x-app-id:$API_ID",
+        "x-app-key:$API_KEY",
+        "x-remote-user-id:$API_REMOTE"
     )
     @POST("natural/nutrients")
     fun postQuery(

@@ -107,7 +107,7 @@ class NutrientActivity : AppCompatActivity() {
                 )
             )
         binding?.chartCalories?.aa_drawChartWithChartModel(chartModel)
-        binding?.btnDrink?.setOnClickListener {
+        binding?.btnAdd?.setOnClickListener {
             val calendar = Calendar.getInstance()
             val sdf = SimpleDateFormat("dd/MM/yyyy", Locale.getDefault())
             val dateNow = sdf.format(calendar.time)
@@ -122,15 +122,16 @@ class NutrientActivity : AppCompatActivity() {
     private fun showEmptyResult() {
         binding?.emptySearch?.linearResult?.visibility = View.VISIBLE
         binding?.emptySearch?.ufo?.animate()?.setDuration(3000L)?.startDelay = 2500
+        binding?.btnAdd?.visibility = View.GONE
     }
 
     private fun showLoading(isLoading: Boolean) {
         if (isLoading) {
             binding?.progressBar?.visibility = View.VISIBLE
-            binding?.btnDrink?.visibility = View.GONE
+            binding?.btnAdd?.visibility = View.GONE
         } else {
             binding?.progressBar?.visibility = View.GONE
-            binding?.btnDrink?.visibility = View.VISIBLE
+            binding?.btnAdd?.visibility = View.VISIBLE
         }
     }
 
