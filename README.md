@@ -58,3 +58,6 @@ Give a ⭐️ if you like this project.
 ## To-do List
 - [ ] Add unit tests
 - [ ] Add instrumented tests
+
+[release-shield]: https://img.shields.io/github/v/release/yobel47/Calorieda?include_prereleases&style=for-the-badge
+[release-url]: https://github.com/yobel47/Calorieda/releases
