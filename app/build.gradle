@@ -4,7 +4,7 @@ plugins {
     id 'kotlin-kapt'
 }
 
-def apikeyPropertiesFile = rootProject.file("local.properties")
+def apikeyPropertiesFile = rootProject.file("app/api.properties")
 def apikeyProperties = new Properties()
 apikeyProperties.load(new FileInputStream(apikeyPropertiesFile))
 
