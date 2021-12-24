@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Calorieda</string>
+    <string name="app_name">Kalorieda</string>
     <string name="title_meal">Meal</string>
     <string name="title_drink">Drink</string>
     <string name="title_calories">Calories</string>
