@@ -5,7 +5,6 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.bell.calorieda.data.DataRepository
 import com.bell.calorieda.data.entity.Calories
-import com.bell.calorieda.data.entity.Drink
 import kotlinx.coroutines.launch
 
 class CaloriesViewModel(private val dataRepository: DataRepository) : ViewModel() {

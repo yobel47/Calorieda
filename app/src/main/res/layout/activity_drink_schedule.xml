@@ -27,6 +27,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/ic_baseline_add_24"
         tools:ignore="SpeakableTextPresentCheck"
-        android:contentDescription="Add"
+        android:contentDescription="@string/add"
         android:focusable="true" />
 </androidx.constraintlayout.widget.ConstraintLayout>

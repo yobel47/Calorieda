@@ -1,14 +1,12 @@
 package com.bell.calorieda.ui.nutrient
 
 import android.util.Log
-import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.bell.calorieda.data.DataRepository
 import com.bell.calorieda.data.api.ApiConfig
 import com.bell.calorieda.data.entity.Calories
-import com.bell.calorieda.data.entity.MealSchedule
 import com.bell.calorieda.data.response.FoodsItem
 import com.bell.calorieda.data.response.Response
 import com.bell.calorieda.ui.calculate.CalculateActivity

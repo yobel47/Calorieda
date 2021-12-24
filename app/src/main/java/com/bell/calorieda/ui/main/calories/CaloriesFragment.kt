@@ -2,17 +2,14 @@ package com.bell.calorieda.ui.main.calories
 
 import android.content.Intent
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.bell.calorieda.data.entity.Calories
 import com.bell.calorieda.databinding.FragmentCaloriesBinding
-import com.bell.calorieda.databinding.FragmentDrinkBinding
 import com.bell.calorieda.ui.calculate.CalculateActivity
-import com.bell.calorieda.ui.main.drink.DrinkViewModel
-import com.bell.calorieda.ui.setting.SettingsActivity
 import com.bell.calorieda.util.ViewModelFactory
 import java.text.SimpleDateFormat
 import java.util.*

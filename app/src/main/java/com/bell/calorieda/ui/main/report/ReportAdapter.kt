@@ -8,7 +8,6 @@ import com.bell.calorieda.data.entity.Calories
 import com.bell.calorieda.data.entity.Drink
 import com.bell.calorieda.data.entity.Meal
 import com.bell.calorieda.databinding.ItemReportBinding
-import kotlin.coroutines.coroutineContext
 
 class ReportAdapter(
     private val listMeal: List<Meal>,

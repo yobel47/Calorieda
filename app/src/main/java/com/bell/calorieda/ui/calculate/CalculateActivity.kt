@@ -1,12 +1,10 @@
 package com.bell.calorieda.ui.calculate
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.view.MenuItem
 import android.view.WindowManager
-import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import com.bell.calorieda.R
 import com.bell.calorieda.databinding.ActivityCalculateBinding
 import com.bell.calorieda.ui.nutrient.NutrientActivity

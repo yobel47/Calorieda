@@ -1,7 +1,6 @@
 package com.bell.calorieda.ui.main.report
 
 import androidx.lifecycle.LiveData
-import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.bell.calorieda.data.DataRepository
 import com.bell.calorieda.data.entity.Calories

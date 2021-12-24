@@ -12,4 +12,5 @@
     <color name="gray_light">#EEEEEE</color>
     <color name="blue">#1394BD</color>
     <color name="blue_transparent">#1A1394BD</color>
+    <color name="blue_background">#0075e2</color>
 </resources>

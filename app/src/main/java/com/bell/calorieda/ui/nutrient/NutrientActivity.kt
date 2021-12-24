@@ -1,10 +1,11 @@
 package com.bell.calorieda.ui.nutrient
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.view.MenuItem
 import android.view.View
+import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -16,10 +17,9 @@ import com.github.aachartmodel.aainfographics.aachartcreator.AAChartModel
 import com.github.aachartmodel.aainfographics.aachartcreator.AAChartType
 import com.github.aachartmodel.aainfographics.aachartcreator.AASeriesElement
 import com.github.aachartmodel.aainfographics.aaoptionsmodel.AADataLabels
-import com.google.android.material.snackbar.Snackbar
 import java.text.SimpleDateFormat
 import java.util.*
-import kotlin.collections.ArrayList
+
 
 class NutrientActivity : AppCompatActivity() {
     private var _binding: ActivityNutrientBinding? = null
@@ -115,7 +115,8 @@ class NutrientActivity : AppCompatActivity() {
             val oldKcal = calories.kcal
             val newKcal = oldKcal.toFloat()+totalCalories
             nutrientViewModel.updateCalories(newKcal.toString(),dateNow)
-            Snackbar.make(it,"Calories data has been added", Snackbar.LENGTH_SHORT).show()
+            Toast.makeText(this@NutrientActivity,"Calories data has been added", Toast.LENGTH_LONG).show()
+            finish()
         }
     }
 

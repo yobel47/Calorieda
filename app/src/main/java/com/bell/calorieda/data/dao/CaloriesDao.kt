@@ -5,7 +5,6 @@ import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.Query
 import com.bell.calorieda.data.entity.Calories
-import com.bell.calorieda.data.entity.Drink
 
 @Dao
 interface CaloriesDao {

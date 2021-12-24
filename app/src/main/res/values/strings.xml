@@ -71,5 +71,7 @@
     <string name="kcal">Kcal</string>
     <string name="date">Date</string>
     <string name="calculate1">Calculate</string>
+    <string name="add_calories_for_today">Add Calories for Today</string>
+    <string name="add">Add</string>
 
 </resources>

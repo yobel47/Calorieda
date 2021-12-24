@@ -1,7 +1,6 @@
 package com.bell.calorieda.ui.main.meal
 
 import android.content.Intent
-import android.graphics.Color
 import android.graphics.Paint
 import android.graphics.drawable.ColorDrawable
 import android.view.LayoutInflater
