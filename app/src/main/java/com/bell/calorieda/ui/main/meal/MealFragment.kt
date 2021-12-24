@@ -41,17 +41,19 @@ class MealFragment : Fragment() {
         val timeFormat = SimpleDateFormat("HH:mm", Locale.getDefault())
         val timeNow = timeFormat.format(calendar.time)
         val dateNow = sdf.format(calendar.time)
-        if (meal.date!=dateNow){
-            if(mealSchedule.isNotEmpty()){
-                mealSchedule.map {
-                    mealViewModel.insertMeal(
-                        Meal(
-                            meal = it.meal,
-                            time = it.time,
-                            status = "0",
-                            date = dateNow
+        if(meal!=null){
+            if (meal.date!=dateNow){
+                if(mealSchedule.isNotEmpty()){
+                    mealSchedule.map {
+                        mealViewModel.insertMeal(
+                            Meal(
+                                meal = it.meal,
+                                time = it.time,
+                                status = "0",
+                                date = dateNow
+                            )
                         )
-                    )
+                    }
                 }
             }
         }
