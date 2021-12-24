@@ -4,7 +4,7 @@
 
 <a><img src="https://i.imgur.com/M5vLCyZ.png" /></a>
 
-** Reminder eat and drink, Calculate calories in your meals using Kalorieda.** This Android-based app is powered by [Nutritionix API](https://developer.nutritionix.com/) and entirely well-written in Kotlin. Kalorieda is built using Clean Architecture which makes it robust, flexible, and maintainable. This app was developed as a capstone project in [Dicoding](https://www.dicoding.com)'s.
+**Reminder eat and drink, Calculate calories in your meals using Kalorieda.** This Android-based app is powered by [Nutritionix API](https://developer.nutritionix.com/) and entirely well-written in Kotlin. Kalorieda is built using Clean Architecture which makes it robust, flexible, and maintainable. This app was developed as a capstone project in [Dicoding](https://www.dicoding.com)'s.
 
 ## Download
 Check out the [release page](https://github.com/yobel47/Calorieda/releases) and download the latest apk.
